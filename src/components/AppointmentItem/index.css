@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.list-container {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  border-radius: 12px;
+  padding: 16px;
+  margin-right: 16px;
+}
+.appointment-data {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #8b5cf6);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 600px;
+  width: 700px;
+  margin-top: 5%;
+  padding: 10px;
+}
+.button {
+  height: 40px;
+  border-radius: 3px;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  margin-top: 10px;
+  border: none;
+  width: 50px;
+  cursor: pointer;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  height: 200px;
+  width: 300px;
+}
+.appointment-input {
+  display: flex;
+  justify-content: space-between;
+}
+.line {
+  border: 1px solid #171f46;
+  width: 100%;
+  margin-top: 10px;
+}
+.appointments-container {
+  display: flex;
+  justify-content: space-between;
+}
+.starred-button {
+  background-color: transparent;
+  border-radius: 10px;
+  height: 30px;
+  margin-top: 10px;
+}
+.appointments-heading {
+  font-size: 20px;
+}
+.appointments-list {
+  display: flex;
+  flex-direction: row;
+  min-width: 150px;
+  height: 150px;
+}
+..filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
